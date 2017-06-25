@@ -12,6 +12,7 @@
   "devDependencies": {
     "chai": "^4.0.2",
     "eslint": "^4.1.0",
+    "eslint-config-jsepia": "^1.0.0",
     "mocha": "^3.4.2"
   }
 }
