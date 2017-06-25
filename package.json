@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-jsepia",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Julio's personal eslint config.",
   "main": "index.js",
   "repository": "git@github.com:jsepia/eslint-config-jsepia.git",
