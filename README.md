@@ -1,7 +1,6 @@
 # eslint-config-jsepia
 
-[![Build Status](https://travis-ci.org/jsepia/eslint-config-jsepia.svg?branch=
-master)](https://travis-ci.org/jsepia/eslint-config-jsepia) [![NPM version](https://img.shields.io/npm/v/eslint-config-jsepia.svg)](https://npmjs.org/package/eslint-config-jsepia)
+[![Build Status](https://travis-ci.org/jsepia/eslint-config-jsepia.svg?branch=master)](https://travis-ci.org/jsepia/eslint-config-jsepia) [![NPM version](https://img.shields.io/npm/v/eslint-config-jsepia.svg)](https://npmjs.org/package/eslint-config-jsepia)
 
 My personal eslint config.
 
