@@ -1,6 +1,13 @@
 language: node_js
 node_js:
- - '6'
- - '7'
+- '6'
+- '7'
 script: npm run test
 sudo: false
+deploy:
+  provider: npm
+  email: jsepia@juliosepia.com
+  api_key:
+    secure: EgxbRFPxhttEIQE11dFu+vFbbGGIrO+86udq8cOMVTou6bUMV95+apGWmwry6Rogo/KInad/OERC3C8da4ZeyYgBiWSIR2wve2m1Gm51r2Bc/lBCJlUF0JXbSt26TciWmYrd6xSYHokSVaR0YmVQZ1KuTJEwczwSKzBs6fLJNwD7crpRB6WMSlTzYNDtrRBQOJqClYXFpoRnIsGADqk9qXJ0Qc+zsPle2TP1jKl3pAUSK4CBpSENxehB1Gmnw2ezQyyNh2l0CJsxg6u+XTkk8wcb4F5qdUcD5MPycfcRIy6dYi1N4kfTn1spU77/3/uTr3Nqqo0VExjCUrAGN+U+DnjKf/hkhI8XHI1p9PCaUXSrKx/6k5Mw59zUdowvgatPDj63ICxX5xxhQbe4Tka/DSLXki2rPUrGwrnW1kEITD/aSVKABCSTn2WWXwKIuBRcE29KBCSjJFYugSoysDkLd1lmeheEHi52lQ9gwoQTLts0fmZRUPa08d2blLoYoVVimSFTo3ERHVbT67/svLgc8FOwq5A/giPvJk3CO9aGPQ9qTpT7K2LgimnbUrkUXf7Ann/gPz3nUpFnl09g1v18sbOv+tgdmaOa0mKPo/uVxMJW1O21uoyr3snjTV1aJP1y0e0r5gn7rEY2xb4QM6wXC6Ii+EKWUli/rpr395AoG40=
+  on:
+    repo: jsepia/eslint-config-jsepia
