@@ -14,7 +14,7 @@ yarn add --dev eslint-config-jsepia
 npm --save-dev install eslint-config-jsepia
 ```
 
-`**.eslintrc**`
+**`.eslintrc`**
 
 ```json
 {
